@@ -1,0 +1,42 @@
+.containerLogin {
+    background-color: deepskyblue;
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.login {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+}
+
+.userPass {
+    margin: 0 auto;
+}
+
+.submit {
+    margin: 0 auto;
+}
+
+.containerText {
+    background-color: rgb(65, 65, 65);
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText {
+    margin: 0 auto;
+    margin-top: 10px;
+}

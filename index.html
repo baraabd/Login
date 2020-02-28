@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="containerLogin">
+        <div class="login">Login</div>
+        <div class="userPass">
+            <input id="username" type="text" placeholder="username">
+            <input id="password" type="password" placeholder="password">
+        </div>
+        <div class="submit">
+            <button onclick="validateForm()">Submit</button>
+        </div>
+    </div>
+    <br>
+    <div class="containerText">
+        <div style="color: aliceblue;">updates the h1 in our html to the inputs value when its changed</div>
+        <input oninput="inputChange(this)" type="text" class="inputText">
+        <h1 id="textToShow"></h1>
+    </div>
+
+    <script src="./handler.js"></script>
+</body>
+
+</html>
